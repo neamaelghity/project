@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* page1*/
+header{
+    background-image: url("drew-coffman-1872.jpg");
+    background-position:center center;
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    padding: 48px;
+}
+
+.home-content{
+    color: white;
+    text-align: center;
+    padding: 48px 0;
+    margin-top: 48px;
+
+}
+.home-content h1,p{
+    padding: 10px;
+}
+
+.btn1{
+    background-color: #8e7754;
+    padding: 15px 30px;
+    color: white;
+    margin-top: 30px;
+    border-color: #8e7754;
+}
+.btn2{
+    background-color: transparent;
+    padding: 15px 30px;
+    color: white;
+    margin-top: 30px;
+    border-color: white;
+
+}
+
+
+
+/* page2 */
+.who-we{   /*section*/
+    width: 100%;
+    background-color: #ebebee;
+    margin: auto;
+    padding-top: 48px;
+}
+.who{      /*div1*/
+    width: 90%;
+    background-color: #fff; 
+    margin: auto;    
+    text-align: center;
+    
+}
+.who-content{
+    display: inline-block;
+    width: 45%;    
+    padding-left: 48px;
+    text-align: left;    
+}
+.who-content h2{
+    padding-bottom: 20px;
+}
+.who-content p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.646);
+}
+.who-content ul{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.646);
+
+}
+
+.who-img {
+    display: inline-block;
+    width: 45%;
+}
+.who-img img{
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+
+
+/* page3 */
+.locations{       /*section*/
+    width: 100%;
+    background-color: #ebebee;
+    margin: auto;
+    padding-top: 48px;
+}
+.location{        /*div1*/
+    width: 90%;
+    background-color: #fff; 
+    margin: auto;    
+    text-align: center;
+}
+.loc-content{
+    display: inline-block;
+    width: 45%;    
+    padding-right: 48px;
+    text-align: left;    
+}
+.loc-content h2{
+    margin-bottom: 20px;
+}
+.loc-content p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.646);
+}
+.loc-img {
+    display: inline-block;
+    width: 45%;
+}
+.loc-img img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+/* page4 */
+.categories{       /*section*/
+    width: 100%;
+    background-color: #ebebee;
+    margin: auto;
+    padding-top: 48px;
+}
+.category{        /*div1*/
+    width: 90%;
+    background-color: #fff; 
+    margin: auto;    
+    text-align: center;
+}
+.multi{    /*child*/
+    padding:20px;
+}
+.multi h2,h3{
+    margin: 20px;
+ 
+}
+.multi p{
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.646);
+
+}
+
+.cate1{
+    width: 30%;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+.cate1 img{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.cate2{
+    width: 30%;
+    display: inline-block;
+    margin-right: 25px;
+}
+.cate2 img{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.cate3{
+    width: 30%;
+    display: inline-block;
+     margin-right: 25px;
+}
+.cate3 img{
+    width: 100%;
+    margin: 25px 0;
+}
+
+
+
+/* page5 */
+.information{       /*section*/
+    width: 100%;
+    background-color: #ebebee;
+    margin: auto;
+    padding-top: 48px;
+}
+.info{        /*div1*/
+    width: 90%;
+    background-color: #fff; 
+    margin: auto;    
+    text-align: center;
+}
+.info-content{
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    padding-right: 20px;  
+    padding-bottom: 48px;
+    padding-top: 48px;
+
+
+}
+.info-content h2{
+    margin: 20px;
+}
+.info-content p,ul,li{
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.646);
+
+}
+.info-map {
+    display: inline-block;
+    width: 45%;
+}
+.info-map iframe{
+    width: 100%;
+}
+
+
+
+/* page6 */
+.lists{       /*section*/
+    width: 100%;
+    background-color: #403d38;
+    margin: auto;
+    padding-top: 48px;
+}
+.list{        /*div1*/
+    width: 90%;
+    background-color: transparent; 
+    margin: auto;    
+    text-align: center;
+}
+.multi-li{
+    padding-bottom: 48px;
+}
+.abt-us{
+    /* background-color: ; */
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+    text-align: left;
+}
+.abt-us p{
+    color: rgba(224, 217, 217, 0.495);
+    padding: 25px;
+    width: 100%;
+}
+
+.special{
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+    text-align: left;
+}
+.special li{
+    color: rgba(224, 217, 217, 0.495);
+    width: 100%;
+}
+
+.hours{
+    color: white;
+    display: inline-block; 
+    width: 20%;
+    margin-right: 50px;
+    text-align: left;
+}
+.hours li{
+    color: rgba(224, 217, 217, 0.495);
+    width: 100%;
+}
+
+.contact{
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+    text-align: left;
+}
+.contact li,a{
+    color: rgba(224, 217, 217, 0.495);
+    width: 100%;
+}
+
+
+
+/* footer */
+.rights{
+    background-color: #353330;
+    margin: auto;
+    text-align: center;
+}
+.right{
+    background-color: #353330;
+
+}
+.rights img,p{
+    padding-bottom: 20px;
+}
+.rights a{
+    margin-right: 10px;
+}
